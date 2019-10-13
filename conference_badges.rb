@@ -30,5 +30,11 @@ narray.each do |item|
   puts item
 end
 
-puts assign_rooms(array)
+narray2 = []
+narray2 = assign_rooms(array)
+
+narray2.each do |item|
+  puts item
+end
+
 end
