@@ -15,7 +15,8 @@ end
 def assign_rooms(array)
   narray = []
  array.each do |name|
- narray << badge_maker(name)
+ narray[] << 
+
    end
 return narray
 
