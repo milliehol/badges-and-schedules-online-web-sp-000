@@ -24,7 +24,7 @@ end
 
 def printer(array)
 narray []
-narray << batch_badge_creator(array)
+narray = batch_badge_creator(array)
 
 narray.each do |item|
   puts item
