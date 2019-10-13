@@ -23,7 +23,7 @@ return narray
 end
 
 def printer(array)
-  
+
 print batch_badge_creator(array)
 
 puts assign_rooms(array)
