@@ -23,8 +23,12 @@ return narray
 end
 
 def printer(array)
+narray []
+narray << batch_badge_creator(array)
 
-print batch_badge_creator(array)
+narray.each do |item|
+  puts item
+end
 
 puts assign_rooms(array)
 end
