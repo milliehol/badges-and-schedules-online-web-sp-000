@@ -23,7 +23,7 @@ return narray
 end
 
 def printer(array)
-narray []
+narray = []
 narray = batch_badge_creator(array)
 
 narray.each do |item|
